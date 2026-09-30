@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" role="img" aria-labelledby="title desc">
+  <title id="title">MoneyLab 데이터 처리 흐름</title>
+  <desc id="desc">수집, 확정 자료 보관, 분석과 계산, 결과 확인 순서의 개념도입니다. 제품 화면이 아닙니다.</desc>
+  <rect width="1000" height="330" rx="18" fill="#101c22"/>
+  <g font-family="Malgun Gothic, sans-serif" fill="#edf5f0">
+    <text x="34" y="48" font-size="24" font-weight="bold">MoneyLab · 수집에서 검증까지</text>
+    <text x="34" y="78" font-size="14" fill="#b3c8bc">역할을 설명하는 개념도 · 실제 제품 화면이 아닙니다</text>
+    <g fill="#1d3434" stroke="#507c6d" stroke-width="1.5">
+      <rect x="34" y="112" width="208" height="132" rx="10"/>
+      <rect x="276" y="112" width="208" height="132" rx="10"/>
+      <rect x="518" y="112" width="208" height="132" rx="10"/>
+      <rect x="760" y="112" width="208" height="132" rx="10"/>
+    </g>
+    <g font-size="19" font-weight="bold"><text x="54" y="148">01 실제 수신</text><text x="296" y="148">02 확정 자료 보관</text><text x="538" y="148">03 분석·계산</text><text x="780" y="148">04 결과 확인</text></g>
+    <g font-size="14" fill="#c1d6cc">
+      <text x="54" y="183">체결·호가 / 과거 분봉</text><text x="54" y="211">관측 시각과 공백 기록</text>
+      <text x="296" y="183">무결성 확인 / 증분 복사</text><text x="296" y="211">날짜 색인과 원본 보존</text>
+      <text x="538" y="183">CPU·GPU / 모의운용</text><text x="538" y="211">진행·중지·이어하기</text>
+      <text x="780" y="183">차트 / 비용·낙폭 평가</text><text x="780" y="211">가정과 검증 한계 표시</text>
+    </g>
+    <g font-size="24" fill="#8dd9b3"><text x="248" y="185">→</text><text x="490" y="185">→</text><text x="732" y="185">→</text></g>
+    <text x="34" y="286" font-size="15" fill="#b3c8bc">원본 관측과 가정 구분 · 누락 자료를 임의 생성하지 않음 · 연구 결과가 실거래 수익을 보장하지 않음</text>
+  </g>
+</svg>
